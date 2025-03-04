@@ -1,11 +1,11 @@
-abstract class Moeda {
-    protected double valor;
+abstract class Moeda { //Classe abstrata Moeda, que serve como base para as diferentes moedas
+    protected double valor; //Atributo que armazena o valor da moeda
 
-    public Moeda(double valor) {
+    public Moeda(double valor) { //Construtor que recebe o valor da moeda e inicializa o atributo
         this.valor = valor;
     }
 
-    public double getValor() {
+    public double getValor() {//Método que retorna o valor da Moeda
         return valor;
     }
 
